@@ -1,0 +1,8 @@
+# Build output
+powera-flash
+xboxmap
+
+# PowerA's firmware is downloaded by get-firmware.sh and must not be committed.
+firmware/*.bin
+
+.DS_Store
