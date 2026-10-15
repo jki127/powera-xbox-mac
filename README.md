@@ -122,3 +122,8 @@ make xboxmap        # Intel Homebrew on Apple Silicon: make xboxmap ARCH=x86_64
 ```
 
 The default mapping puts the left stick on WASD, the right stick on the mouse, the triggers on mouse clicks, and A, B, X and Y on Space, Esc, E and Q. Change the `MAPPING` section in `xboxmap.c` and rebuild to customize it.
+
+## Related projects
+
+- [PowerA PC HQ for macOS (PowerA-HQ-for-OPS-v1)](https://github.com/darthdragneel1/PowerA-HQ-for-OPS-v1) — Companion application and user-space IOKit/hidapi driver for the **PowerA OPS v1 & OPS v3 Pro Wireless/Wired Controller** family (`VID: 0x20D6`), providing low-latency input streaming, RGB lighting, dual rumble testing, calibration, and `.pwa` profile management without firmware modifications.
+
